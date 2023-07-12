@@ -7,6 +7,10 @@
     font-family: 'Open Sans';
 }
 
+label {
+    font-weight: 300;
+}
+
 /* Keep mandatory field labels black */
 .mandatory {
     color: black;
