@@ -1,0 +1,48 @@
+/********************************
+ FSO-Forms
+********************************/
+
+/* Base font for everything */
+* {
+    font-family: 'Open Sans';
+}
+
+/* Keep mandatory field labels black */
+.mandatory {
+    color: black;
+}
+
+.mandatory::after {
+    content: "*";
+}
+
+/* Bootstrap overrides */
+
+/* Change primary button color */
+.btn-primary {
+    background-color: #00539f;
+}
+
+.btn-primary:hover {
+    background-color: #00386c;
+}
+
+/* Keep form labels black even after validation */
+
+has-success .help-block,
+.has-success .control-label,
+.has-success .radio,
+.has-success .checkbox,
+.has-success .radio-inline,
+.has-success .checkbox-inline {
+  color: black;
+}
+
+has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline {
+  color: black;
+}
