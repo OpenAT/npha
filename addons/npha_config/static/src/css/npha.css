@@ -7,6 +7,10 @@
     font-family: 'Open Sans';
 }
 
+html, body, .form-control {
+    font-size: 16px;
+}
+
 label {
     font-weight: 300;
 }
